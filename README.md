@@ -8,6 +8,10 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+[![author][author-shield]][author-url]
+# Welcome to my data science portifolio!
+<br />
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -21,26 +25,22 @@
 <br />
 <div align="center">
   <a href="https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch">
-    <img src="images/logo.jpg" alt="Logo" width="700" height="350">
+    <img src="images/data_science.jpg" alt="Data Science" width="1000" height="300">
   </a>
 
-<h3 align="center"> Credit Risk Analysis - Lending Club </h3>
-
+<h1 align="center"> Data Science Portifolio </h1>
   <p align="center">
-    Classification of requested loans using Pytorch as the main classification model
     <br />
-    <a href="https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch">View Demo</a>
-    ·
-    <a href="https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
+#### Hello, I am a Data Science student, currently in the 2nd year of my degree, and I am looking for knowledge and opportunities in the area of ​​data and technology.
 
+#### I have been delving deeper and seeking knowledge in Neural Networks, Deep Learning, Data Processing and Big Data Concepts.
+
+#### Technologies and tools that I have been using in my learning and in my day-to-day life:
+
+**Python, R, Pytorch, Scikit-learn, Pandas, PySpark, Databricks, Azure, SQL, PostgreSQL, Power BI.**
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -69,10 +69,14 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- THE PROJECTS -->
+<br />
+
+## Projects
 
 <br />
+
+## Classification  - Credit risk classification
 <div align="center">
   <a href="https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch">
     <img src="images/logoLC.jpeg" alt="Logo Lending Club" width="700" height="350">
@@ -85,35 +89,41 @@
 
 * In this project, I will work with a dataset taken from Kaggle, where I will perform a credit risk analysis. The data provided comes from LendingClub, a financial services company based in San Francisco, California. LendingClub was the first peer-to-peer lending platform to register its offerings as securities with the Securities and Exchange Commission (SEC) and to offer loan trading on a secondary market. The company offers personal loans of up to $40,000, with terms ranging from 24 to 60 months, and operates entirely online, with no physical branches.
 
-* In this project, I will apply the CRISP-DM method, which follows the following steps:
+* What is the objective of this project?
 
-  * 1-**Business understanding**:
-  
-    What does the business need?
-  
-  * 2-**Data understanding**:
-  
-    What data do we have/need? Is it clean?
-  
-  * 3-**Data preparation**:
-  
-    How do we organize the data for modeling?
-  
-  * 4-**Modeling**:
-  
-    What modeling techniques should we apply?
-  
-  * 5-**Evaluation**:
-  
-    What best meets the business objectives?
-  
-  * 6-**Implementation**:
-  
-    How do stakeholders access the results?
+  * A machine learning model will be created that seeks to make predictions that during the loan application will indicate whether the borrower will be a good payer or not.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+  * The main objective is to create analyses that use only the information collected at the time of the loan application. The model focuses on preventing the release of loans to potentially defaulting borrowers, using only the variables available at the time of the request.
 
+  * I will seek to generate several insights so that we have information about the institution's objective, which is to reduce unpaid loans and potential losses in relation to recent years.
 
+* **Final solution**:
+
+    We can make the following considerations regarding loan classifications:
+
+* **Very low risk:** 
+
+  * These are loans classified as paid. The selected indicators are in accordance with the rules of our classifier, which allows us to offer better interest rates to this borrower and possibly increase the requested loan amount.
+
+  * We have an accuracy of **66.89%** for this class of the model. We can consider the rules determined using the variable **'sub_grade'** as the main parameter in the classifier rules. **'good_grades'** have a probability of default that varies from **3.52% to 16.05%**. Therefore, the chances of loans classified under these terms becoming defaulted are very low.
+
+* **Low risk:** 
+
+  * These are loans classified as paid. However, the selected indicators are not in accordance with the rules of our classifier. Therefore, we must consider the borrower's scores and classifications to verify the possibility of approval. In case of approval or not, we have the indicators to justify to our clients the reason for the decision. In cases of approval, we can reduce the amount requested to prevent possible fraud. In case of denial, we can present the indicators that the potential client needs to improve in order to have their loan approved in the future.
+
+  * We have an accuracy of **66.89%** for this class of the model. We can consider the rules determined using the variable **'sub_grade'** as the main parameter in the classifier rules. Since these loans are outside the **goods_grades** we can understand that these loans that received this classification need a more careful analysis considering the other indicators.
+
+* **Medium risk:** 
+
+  * These are loans classified as defaulted. However, the selected indicators are in accordance with the rules of our classifier. Therefore, we must consider the borrower's scores and classifications to verify the possibility of approval. Whether approved or not, we have the indicators to justify the decision to our clients. In cases of approval, we can reduce the amount requested to prevent possible fraud. In cases of denial, we can present the indicators that the potential client needs to improve in order to have their loan approved in the future.
+
+  * We have an accuracy of **63.87%** for this class of the model. We can consider the rules determined using the variable **'sub_grade'** as the main parameter in the classifier rules. Since these loans are outside the **bad_grades** we can understand that these loans that received this classification need a more careful analysis considering the other indicators.
+
+* **Very high risk:** 
+
+  * These are loans classified as defaulted, and the indicators indicate that they will probably not be paid. Therefore, these loans will be denied, and we will use our indicators to justify the reasons for non-approval.
+
+  * We have an accuracy of **63.87%** for this class of the model. We can consider the rules determined using the **'sub_grade'** variable as the main parameter in the classifier rules. **'bad_grades'** have a default probability ranging from **31.25% to 47.66%**. Therefore, the chances of loans classified under these terms becoming defaulted are very high.
 
 ### Built With
 * [![Databricks][Azure Databricks]][Azure Databricks-url]
@@ -130,107 +140,6 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-0-**Clone the repo**
-   ```sh
-   git clone https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch
-   ```
-
-### Prerequisites
-
-* Data Bricks - This project was developed in the Databricks environment, so the entire project structure is compatible with AzureDatabricks and Databricks Community. Below I will leave the link to create an account in the Databricks Community where it is free and at no cost and you will be able to run a copy of this project perfectly.
-Link for create acount :
-
-* [![Databricks CM][Azure Databricks CM]][Azure Databricks CM-url]
-
-* ##### Now that your account is created, you will need to create a cluster in DataBricks. Below is the step-by-step guide to creating the cluster.
-
-* ###### Step-by-Step Guide to Creating a Cluster in Databricks
-
-   1-**Access Databricks**:
-    - Log in to your Databricks account.
-
-   2-**Navigate to the Clusters Section**:
-    - In the side menu, click on **Compute** (or **Clusters**).
-
-   3-**Create a New Cluster**:
-    - Click on the **Create Cluster** button.
-
-   4-**Configure the Cluster**:
-    - **Cluster Name**: Give your cluster a name.
-    - **Cluster Mode**: Choose the cluster mode (Standard, High Concurrency, etc.).
-    - **Databricks Runtime Version**: Select the version of Databricks Runtime you want to use.
-    - **Node Type**: Choose the node type (virtual machine) for the workers and the driver. - **Autoscaling**: Enable or disable autoscaling. If enabled, set the minimum and       maximum number of nodes.
-    - **Worker Nodes**: Set the number of worker nodes.
-    - **Driver Node**: Configure the driver node if necessary.
-    - **Version used in this project**: 15.4 LTS (includes Apache Spark 3.5.0, Scala 2.12)
-
-   5-**Advanced Settings (Optional)**:
-    - **Libraries**: Add libraries that the cluster should load when starting.
-    - **Spark Configurations**: Add Spark-specific configurations.
-    - **Environment Variables**: Set environment variables if necessary.
-
-   6-**Create the Cluster**:
-    - After configuring all options, click **Create Cluster**.
-
-  * #### Additional Resources
-
-    * **Official Documentation**: See the official Databricks documentation for more details and advanced options: [Click here](https://learn.microsoft.com/en-us/azure/databricks/scenarios/quickstart-create-databricks-workspace-vnet-injection).
-
-
-### Installation of librarys
-
-* Install Libraries to the Cluster:
-
-    * After creating the cluster, click on the cluster name to open its settings.
-
-    *  Go to the Libraries tab.
-
-    * Click Install New.
-
-    * Choose the library source (e.g., PyPI, Maven, CRAN, DBFS, etc.).
-
-    * Follow the instructions to install the desired library. For example, to install a library from PyPI, enter the package name and click Install.
-
-* Librares:
-  
-  1-threadpoolctl: **PyPI**
-     ```py
-     threadpoolctl==3.5.0
-     ```
-  2-spark-excel_2.12:0.14.0: **Marven**
-     ```py
-     com.crealytics:spark-excel_2.12:0.14.0
-     ```
-  3-scikit-learn: **PyPI**
-     ```py
-     scikit-learn==1.5.2
-     ```
-  4-category_encoders: **PyPI**
-     ```py
-     category_encoders==2.6.3
-     ```
-  5-torch: **PyPI**
-     ```py
-     torch==2.5.1
-     ```
-  6-torchmetrics: **PyPI**
-     ```py
-     torchmetrics==1.4.2
-     ```
-  7-xgboost: **PyPI**
-     ```py
-     xgboost==2.1.0
-     ```
-  8-ray[tune]: **PyPI**
-     ```py
-     ray[tune]==2.38.0
-     ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -1416,34 +1325,7 @@ At this stage of the project, some models were tested to verify the performance 
     ### sub_grade ###: B2 >>>> OK
 ```
 
-## Final considerations:
 
-## **We can make the following considerations regarding loan classifications**:
-
-### **Very low risk:** 
-
-* These are loans classified as paid. The selected indicators are in accordance with the rules of our classifier, which allows us to offer better interest rates to this borrower and possibly increase the requested loan amount.
-
-* We have an accuracy of **66.89%** for this class of the model. We can consider the rules determined using the variable **'sub_grade'** as the main parameter in the classifier rules. **'good_grades'** have a probability of default that varies from **3.52% to 16.05%**. Therefore, the chances of loans classified under these terms becoming defaulted are very low.
-
-### **Low risk:** 
-
-* These are loans classified as paid. However, the selected indicators are not in accordance with the rules of our classifier. Therefore, we must consider the borrower's scores and classifications to verify the possibility of approval. In case of approval or not, we have the indicators to justify to our clients the reason for the decision. In cases of approval, we can reduce the amount requested to prevent possible fraud. In case of denial, we can present the indicators that the potential client needs to improve in order to have their loan approved in the future.
-
-* We have an accuracy of **66.89%** for this class of the model. We can consider the rules determined using the variable **'sub_grade'** as the main parameter in the classifier rules. Since these loans are outside the **goods_grades** we can understand that these loans that received this classification need a more careful analysis considering the other indicators.
-
-### **Medium risk:** 
-
-* These are loans classified as defaulted. However, the selected indicators are in accordance with the rules of our classifier. Therefore, we must consider the borrower's scores and classifications to verify the possibility of approval. Whether approved or not, we have the indicators to justify the decision to our clients. In cases of approval, we can reduce the amount requested to prevent possible fraud. In cases of denial, we can present the indicators that the potential client needs to improve in order to have their loan approved in the future.
-
-* We have an accuracy of **63.87%** for this class of the model. We can consider the rules determined using the variable **'sub_grade'** as the main parameter in the classifier rules. Since these loans are outside the **bad_grades** we can understand that these loans that received this classification need a more careful analysis considering the other indicators.
-
-### **Very high risk:** 
-
-* These are loans classified as defaulted, and the indicators indicate that they will probably not be paid. Therefore, these loans will be denied, and we will use our indicators to justify the reasons for non-approval.
-
-* We have an accuracy of **63.87%** for this class of the model. We can consider the rules determined using the **'sub_grade'** variable as the main parameter in the classifier rules. **'bad_grades'** have a default probability ranging from **31.25% to 47.66%**. Therefore, the chances of loans classified under these terms becoming defaulted are very high.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- ROADMAP -->
@@ -1505,6 +1387,9 @@ Project Link: [https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_w
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[author-shield]: https://img.shields.io/badge/author-OtnielGomes-red.svg
+[author-url]: https://github.com/OtnielGomes
 
 [contributors-shield]: https://img.shields.io/github/contributors/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch.svg?style=for-the-badge
 [contributors-url]: https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch/graphs/contributors
