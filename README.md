@@ -24,7 +24,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch">
+  <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
     <img src="images/data_science.jpg" alt="Data Science" width="1000" height="300">
   </a>
 
@@ -78,7 +78,7 @@ Technologies and tools that I have been using in my learning and in my day-to-da
 
 ## Classification  - Credit risk classification
 <div align="center">
-  <a href="https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch">
+  <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
     <img src="images/logoLC.jpeg" alt="Logo Lending Club" width="500" height="250">
   </a>
 </div>
@@ -141,7 +141,7 @@ Technologies and tools that I have been using in my learning and in my day-to-da
 
 <br />
 <div align="left">
-  <a href="https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch">
+  <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
     <img src="images/scores_models.png" alt="Scores Models" width="700" height="200">
   </a>
 </div>
@@ -152,7 +152,7 @@ Technologies and tools that I have been using in my learning and in my day-to-da
 
 <br />
 <div align="left">
-  <a href="https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch">
+  <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
     <img src="images/test_matrix.png" alt="Test Confusion Matrix" width="300" height="300">
   </a>
 </div>
@@ -188,22 +188,19 @@ Technologies and tools that I have been using in my learning and in my day-to-da
 ```
 
 ## Churn Prediction  - Credit Card Churn Prediction
+### Under constrution ...
 <div align="center">
-  <a href="https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch">
+  <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
     <img src="images/under_construction.jpg" alt="Under construction" width="500" height="250">
   </a>
 </div>
 
 
-
-<!-- ROADMAP -->
-## Roadmap
-
 - [Notebook-1-EDA](https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch/blob/main/1_Notebooks/0_EDA.ipynb)
 - [Notebook-2-Modeling](https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch/blob/main/1_Notebooks/1_Modeling.ipynb)
 
 
-See the [open issues](https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/OtnielGomes/Data_Science_Portfolio/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -227,8 +224,8 @@ Don't forget to give the project a star! Thanks again!
 
 ### Top contributors:
 
-<a href="https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch" alt="contrib.rocks image" />
+<a href="https://github.com/OtnielGomes/Data_Science_Portfolio/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=OtnielGomes/Data_Science_Portfolio" alt="contrib.rocks image" />
 </a>
 
 
@@ -236,7 +233,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See [`LICENSE.txt`](https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch/blob/main/LICENSE) for more information.
+Distributed under the MIT License. See [`LICENSE.txt`](https://github.com/OtnielGomes/Data_Science_Portfolio/blob/main/LICENSE) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -247,7 +244,7 @@ Distributed under the MIT License. See [`LICENSE.txt`](https://github.com/Otniel
 
 Otniel Gomes - [linkedin.com/in/otnielgomes](https://www.linkedin.com/in/otnielgomes/) - otniel.g.andrade@gmail.com
 
-Project Link: [https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch](https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch)
+Project Link: [https://github.com/OtnielGomes/Data_Science_Portfolio](https://github.com/OtnielGomes/Data_Science_Portfolio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
