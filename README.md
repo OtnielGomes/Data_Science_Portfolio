@@ -186,9 +186,12 @@ Technologies and tools that I have been using in my learning and in my day-to-da
     
     ### sub_grade ###: B2 >>>> OK
 ```
+<br />
 
 ## Churn Prediction  - Credit Card Churn Prediction
+
 ### Under constrution ...
+
 <div align="center">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
     <img src="images/under_construction.jpg" alt="Under construction" width="500" height="250">
