@@ -135,7 +135,7 @@ Technologies and tools that I have been using in my learning and in my day-to-da
 * [![Sklearn][scikit-learn]][scikit-learn-url]
 * [![Ray][Ray Tune]][Ray Tune-url]
 
-## Scores models of validation data
+## Scoring of models on validation data
 
 <br />
 <div align="left">
