@@ -140,7 +140,7 @@ Technologies and tools that I have been using in my learning and in my day-to-da
 <br />
 <div align="left">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/scores_models.png" alt="Scores Models" width="700" height="250">
+    <img src="images/scores_models.png" alt="Scores Models" width="800" height="250">
   </a>
 </div>
 <br />
