@@ -74,7 +74,7 @@ Technologies and tools that I have been using in my learning and in my day-to-da
 ## Projects
 
 
-## Classification  - Credit risk classification
+## Classification-Credit risk classification
 <div align="center">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
     <img src="images/logoLC.jpeg" alt="Logo Lending Club" width="500" height="250">
@@ -185,7 +185,7 @@ Technologies and tools that I have been using in my learning and in my day-to-da
     ### sub_grade ###: B2 >>>> OK
 ```
 
-## Churn Prediction  - Credit Card Churn Prediction
+## Churn Prediction-Credit Card Churn Prediction
 
 ### Under constrution ...
 
