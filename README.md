@@ -122,7 +122,7 @@ Technologies and tools that I have been using in my learning and in my day-to-da
   * These are loans classified as defaulted, and the indicators indicate that they will probably not be paid. Therefore, these loans will be denied, and we will use our indicators to justify the reasons for non-approval.
 
   * We have an accuracy of **63.87%** for this class of the model. We can consider the rules determined using the **'sub_grade'** variable as the main parameter in the classifier rules. **'bad_grades'** have a default probability ranging from **31.25% to 47.66%**. Therefore, the chances of loans classified under these terms becoming defaulted are very high.
-
+ 
 ### Built With
 * [![Databricks][Azure Databricks]][Azure Databricks-url]
 * [![Language Python][Python]][Python-url]
@@ -140,7 +140,7 @@ Technologies and tools that I have been using in my learning and in my day-to-da
 <br />
 <div align="left">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/scores_models.png" alt="Scores Models" width="800" height="250">
+    <img src="images/scores_models.png" alt="Scores Models" width="900" height="300">
   </a>
 </div>
 <br />
@@ -185,6 +185,10 @@ Technologies and tools that I have been using in my learning and in my day-to-da
     ### sub_grade ###: B2 >>>> OK
 ```
 
+### Project complete: [Click here to check the complete project](https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch)
+
+#
+#
 ## Churn Prediction-Credit Card Churn Prediction
 
 ### Under constrution ...
@@ -194,16 +198,6 @@ Technologies and tools that I have been using in my learning and in my day-to-da
     <img src="images/under_construction.jpg" alt="Under construction" width="500" height="250">
   </a>
 </div>
-
-
-- [Notebook-1-EDA](https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch/blob/main/1_Notebooks/0_EDA.ipynb)
-- [Notebook-2-Modeling](https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch/blob/main/1_Notebooks/1_Modeling.ipynb)
-
-
-See the [open issues](https://github.com/OtnielGomes/Data_Science_Portfolio/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTRIBUTING -->
