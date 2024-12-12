@@ -9,8 +9,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![author][author-shield]][author-url]
-# Welcome to my data science portifolio!
-<br />
+# Data Science Portifolio
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -28,7 +27,7 @@
     <img src="images/data_science.jpg" alt="Data Science" width="1000" height="300">
   </a>
 
-<h1 align="center"> Data Science Portifolio </h1>
+<h1 align="center">  Welcome to my Data Science portifolio! </h1>
   <p align="center">
     <br />
   </p>
@@ -74,7 +73,6 @@ Technologies and tools that I have been using in my learning and in my day-to-da
 
 ## Projects
 
-<br />
 
 ## Classification  - Credit risk classification
 <div align="center">
@@ -101,25 +99,25 @@ Technologies and tools that I have been using in my learning and in my day-to-da
 
     We can make the following considerations regarding loan classifications:
 
-* **Very low risk:** 
+  **Very low risk:** 
 
   * These are loans classified as paid. The selected indicators are in accordance with the rules of our classifier, which allows us to offer better interest rates to this borrower and possibly increase the requested loan amount.
 
   * We have an accuracy of **66.89%** for this class of the model. We can consider the rules determined using the variable **'sub_grade'** as the main parameter in the classifier rules. **'good_grades'** have a probability of default that varies from **3.52% to 16.05%**. Therefore, the chances of loans classified under these terms becoming defaulted are very low.
 
-* **Low risk:** 
+  **Low risk:** 
 
   * These are loans classified as paid. However, the selected indicators are not in accordance with the rules of our classifier. Therefore, we must consider the borrower's scores and classifications to verify the possibility of approval. In case of approval or not, we have the indicators to justify to our clients the reason for the decision. In cases of approval, we can reduce the amount requested to prevent possible fraud. In case of denial, we can present the indicators that the potential client needs to improve in order to have their loan approved in the future.
 
   * We have an accuracy of **66.89%** for this class of the model. We can consider the rules determined using the variable **'sub_grade'** as the main parameter in the classifier rules. Since these loans are outside the **goods_grades** we can understand that these loans that received this classification need a more careful analysis considering the other indicators.
 
-* **Medium risk:** 
+  **Medium risk:** 
 
   * These are loans classified as defaulted. However, the selected indicators are in accordance with the rules of our classifier. Therefore, we must consider the borrower's scores and classifications to verify the possibility of approval. Whether approved or not, we have the indicators to justify the decision to our clients. In cases of approval, we can reduce the amount requested to prevent possible fraud. In cases of denial, we can present the indicators that the potential client needs to improve in order to have their loan approved in the future.
 
   * We have an accuracy of **63.87%** for this class of the model. We can consider the rules determined using the variable **'sub_grade'** as the main parameter in the classifier rules. Since these loans are outside the **bad_grades** we can understand that these loans that received this classification need a more careful analysis considering the other indicators.
 
-* **Very high risk:** 
+  **Very high risk:** 
 
   * These are loans classified as defaulted, and the indicators indicate that they will probably not be paid. Therefore, these loans will be denied, and we will use our indicators to justify the reasons for non-approval.
 
@@ -137,12 +135,12 @@ Technologies and tools that I have been using in my learning and in my day-to-da
 * [![Sklearn][scikit-learn]][scikit-learn-url]
 * [![Ray][Ray Tune]][Ray Tune-url]
 
-## Scores Models
+## Scores models of validation data
 
 <br />
 <div align="left">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/scores_models.png" alt="Scores Models" width="700" height="200">
+    <img src="images/scores_models.png" alt="Scores Models" width="700" height="250">
   </a>
 </div>
 <br />
@@ -150,7 +148,7 @@ Technologies and tools that I have been using in my learning and in my day-to-da
 ## Pytorch with Test data
 #### Confusion Matrix
 
-<br />
+
 <div align="left">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
     <img src="images/test_matrix.png" alt="Test Confusion Matrix" width="300" height="300">
@@ -158,7 +156,7 @@ Technologies and tools that I have been using in my learning and in my day-to-da
 </div>
 <br />
 
-## Considerations on validating the model on test data:
+## Scores of the model on test data:
 
 * At this stage of the project, we finally submitted our model to the test data. We can see that our AUC-ROC and Precision scores were satisfactory compared to the training data scores, and the confusion matrix is ​​balanced. The model presented the following scores:
 
@@ -186,7 +184,6 @@ Technologies and tools that I have been using in my learning and in my day-to-da
     
     ### sub_grade ###: B2 >>>> OK
 ```
-<br />
 
 ## Churn Prediction  - Credit Card Churn Prediction
 
