@@ -46,20 +46,15 @@ Technologies and tools that I have been using in my learning and in my day-to-da
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <a href="#data-science-portifolio">Data Science Portifolio</a>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
+    <li><a href="#the-projects">The Projects</a></li>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation-of-librarys">Installation of librarys</a></li>
+        <li><a href="#classification-credit-risk-classification">Classification-Credit risk classification</a>
       </ul>
-    </li>
-    <li><a href="#the-project">The Project</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+      <ul>
+          <li><a href="#churn-prediction-credit-card-churn-prediction">Churn Prediction-Credit Card Churn Prediction</a></li>
+      </ul>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -71,10 +66,13 @@ Technologies and tools that I have been using in my learning and in my day-to-da
 <!-- THE PROJECTS -->
 <br />
 
-## Projects
+## The Projects
 
 
 ## Classification-Credit risk classification
+
+#### Project complete: [Click here to check the complete project](https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch)
+
 <div align="center">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
     <img src="images/logoLC.jpeg" alt="Logo Lending Club" width="500" height="250">
@@ -184,21 +182,22 @@ Technologies and tools that I have been using in my learning and in my day-to-da
     
     ### sub_grade ###: B2 >>>> OK
 ```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Project complete: [Click here to check the complete project](https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch)
-
-#
 #
 ## Churn Prediction-Credit Card Churn Prediction
 
-### Under constrution ...
+#### Under constrution ...
 
+<br />
 <div align="center">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
     <img src="images/under_construction.jpg" alt="Under construction" width="500" height="250">
   </a>
 </div>
+<br />
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 ## Contributing
