@@ -431,9 +431,7 @@ Distributed under the MIT License. See [`LICENSE.txt`](https://github.com/Otniel
 <!-- CONTACT -->
 ## Contact
 
-Otniel Gomes - [linkedin.com/in/otnielgomes](https://www.linkedin.com/in/otnielgomes/) - otniel.g.andrade@gmail.com
-
-Project Link: [https://github.com/OtnielGomes/Data_Science_Portfolio](https://github.com/OtnielGomes/Data_Science_Portfolio)
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
