@@ -1,13 +1,7 @@
 <a id="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
+
 [![author][author-shield]][author-url]
 # Data Science Portifolio
 
@@ -24,7 +18,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/data_science.jpg" alt="Data Science" width="1000" height="300">
+    <img src="images/data_science.jpg" alt="Data Science" width="800" height="300">
   </a>
 
 <h1 align="center">  Welcome to my Data Science portifolio! </h1>
@@ -33,13 +27,34 @@
   </p>
 </div>
 
-Hello, I am a Data Science student, currently in the 2nd year of my degree, and I am looking for knowledge and opportunities in the area of ​​data and technology.
+👋 Hi! I’m a 2nd-year Data Science student, passionate about Deep Learning, Data, and Programming.
+I’m constantly learning and applying my knowledge to solve real-world business problems, delivering data-driven solutions that improve efficiency and results.
 
-I have been delving deeper and seeking knowledge in Neural Networks, Deep Learning, Data Processing and Big Data Concepts.
+🔎 **Core Skills:**
 
-Technologies and tools that I have been using in my learning and in my day-to-day life:
+🗝️ Business Problem-Solving
 
-**Python, R, Pytorch, Scikit-learn, Pandas, PySpark, Databricks, Azure, SQL, PostgreSQL, Power BI.**
+📊 Exploratory Data Analysis (EDA)
+
+
+📃 Predictive & Prescriptive Analytics
+
+
+📁 Data Engineering & Modeling 
+
+
+🗄️ Big Data
+
+
+🤖 Machine Learning
+
+
+🧠 **Deep Learning** 
+
+
+💡 I’m looking for **opportunities and collaborations in Data Science, Artificial Intelligence, and Big Data**, where I can **grow, learn, and make a real impact**.
+
+---
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -50,7 +65,7 @@ Technologies and tools that I have been using in my learning and in my day-to-da
     </li>
     <li><a href="#the-projects">The Projects</a></li>
       <ul>
-        <li><a href="#classification-credit-risk-classification">Classification-Credit risk classification</a>
+        <li><a href="#classification---💳-credit-card-churn-prediction">Credit Card Churn-Prediction</a>
       </ul>
       <ul>
           <li><a href="#churn-prediction-credit-card-churn-prediction">Churn Prediction-Credit Card Churn Prediction</a></li>
@@ -68,60 +83,250 @@ Technologies and tools that I have been using in my learning and in my day-to-da
 
 ## The Projects
 
+<br/>
 
-## Classification-Credit risk classification
+### Classification - 💳 Credit Card Churn Prediction
 
-#### Project complete: [Click here to check the complete project](https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch)
+#### Project complete: [Click here to check the complete project](https://github.com/OtnielGomes/1_Portfolio-Credit-Card_Churn_Analysis_with_Pytorch)
+
+---
 
 <div align="center">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/logoLC.jpeg" alt="Logo Lending Club" width="500" height="250">
+    <img src="images/churn_predction/logo.jpg" alt="Churn Predction logo" width="500" height="250">
   </a>
 </div>
 
-# Description:
+---
 
-* This project will be built and implemented using the **Azure Databricks** environment, where classifiers will be built with neural network/machine learning models that will seek to predict whether a loan will be paid or not. The basis of the project will be a PyTorch model that will classify the requested loans. In the final model, a classifier will be created that will use the selected model together with some variables and information from the loan applicant to make the final classification, where the loans will be classified into 4 stages of default risk. According to the defined parameters, the classifier will decide whether the loan should be approved or rejected immediately, or if there is the possibility of a reassessment by the institution's stakeholders.
+### 📃 Project Description
 
-* In this project, I will work with a dataset taken from Kaggle, where I will perform a credit risk analysis. The data provided comes from LendingClub, a financial services company based in San Francisco, California. LendingClub was the first peer-to-peer lending platform to register its offerings as securities with the Securities and Exchange Commission (SEC) and to offer loan trading on a secondary market. The company offers personal loans of up to $40,000, with terms ranging from 24 to 60 months, and operates entirely online, with no physical branches.
+In this project, I will be working with a dataset provided by **Kaggle**, where I will develop a churn-rate analysis. The goal is to identify the causes and reasons for customer churn from a banking institution in relation to credit card services. After understanding these causes and reasons, some machine learning models will be developed to predict potential customers who will be abandoning the credit card service of this institution. With these predictions, I will seek to develop solutions to prevent or reverse the churn of these customers.  
 
-* What is the objective of this project?
+---  
 
-  * A machine learning model will be created that seeks to make predictions that during the loan application will indicate whether the borrower will be a good payer or not.
+### 📋 CRISP-DM Methodology  
+The project will follow the CRISP-DM (*Cross-Industry Standard Process for Data Mining*) framework:  
 
-  * The main objective is to create analyses that use only the information collected at the time of the loan application. The model focuses on preventing the release of loans to potentially defaulting borrowers, using only the variables available at the time of the request.
+| **Stage** | **Objective** | **Key Actions** |  
+|-----------|---------------|------------------|  
+| **1. Business Understanding** | Define the impact of churn prediction on customer retention. | - Identify the causes and possible solutions for the business.<br>- Align metrics with business KPIs. |  
+| **2. Data Understanding** | Analyze data structure, quality, and variable relationships. | - Exploratory Data Analysis (EDA).<br>- Outlier and correlation detection. |  
+| **3. Data Preparation** | Prepare data for model training. | - Split training and test data.<br>- Remove redundant variables. |  
+| **4. Modeling** | Train and compare classical models and neural networks. | - Random Forest/Logistic Regression (baseline).<br>- PyTorch neural network (focus on generalization). |  
+| **5. Evaluation** | Validate performance with business-oriented metrics. | - AUC-ROC, Recall, confusion matrix.<br>- Simulate financial impact. |  
+| **6. Deployment** | Deploy the model for production use. | - Build a final churn prediction model with customer behavior indicators. |  
 
-  * I will seek to generate several insights so that we have information about the institution's objective, which is to reduce unpaid loans and potential losses in relation to recent years.
+---
 
-* **Final solution**:
+### 🎯 Objectives
 
-    We can make the following considerations regarding loan classifications:
+The bank’s manager has observed a rising number of customers abandoning credit card services. Stakeholders aim to:  
+1. **Analyze historical data** to identify root causes of churn.  
+2. **Develop a machine learning model** to predict customer churn probability.  
+3. **Implement strategic actions** to retain high-risk customers. 
 
-  **Very low risk:** 
+---
 
-  * These are loans classified as paid. The selected indicators are in accordance with the rules of our classifier, which allows us to offer better interest rates to this borrower and possibly increase the requested loan amount.
+### ✅ Final Solution – Churn Prediction Classifier
 
-  * We have an accuracy of **66.89%** for this class of the model. We can consider the rules determined using the variable **'sub_grade'** as the main parameter in the classifier rules. **'good_grades'** have a probability of default that varies from **3.52% to 16.05%**. Therefore, the chances of loans classified under these terms becoming defaulted are very low.
 
-  **Low risk:** 
+I deploy the final churn prediction classifier, developed using the insights and statistical patterns identified during the Exploratory Data Analysis (EDA).  
+The model processes individual customer data and returns:  
 
-  * These are loans classified as paid. However, the selected indicators are not in accordance with the rules of our classifier. Therefore, we must consider the borrower's scores and classifications to verify the possibility of approval. In case of approval or not, we have the indicators to justify to our clients the reason for the decision. In cases of approval, we can reduce the amount requested to prevent possible fraud. In case of denial, we can present the indicators that the potential client needs to improve in order to have their loan approved in the future.
+- **Churn probability** — the likelihood of the customer leaving.  
+- **Key influencing factors** — the main behavioral and financial indicators driving the prediction.  
+- **Actionable recommendations** — targeted suggestions to help reduce churn risk.  
 
-  * We have an accuracy of **66.89%** for this class of the model. We can consider the rules determined using the variable **'sub_grade'** as the main parameter in the classifier rules. Since these loans are outside the **goods_grades** we can understand that these loans that received this classification need a more careful analysis considering the other indicators.
+This deployment enables data-driven decision-making, allowing the business to proactively implement retention strategies, improve customer engagement, and maximize lifetime value.
 
-  **Medium risk:** 
-
-  * These are loans classified as defaulted. However, the selected indicators are in accordance with the rules of our classifier. Therefore, we must consider the borrower's scores and classifications to verify the possibility of approval. Whether approved or not, we have the indicators to justify the decision to our clients. In cases of approval, we can reduce the amount requested to prevent possible fraud. In cases of denial, we can present the indicators that the potential client needs to improve in order to have their loan approved in the future.
-
-  * We have an accuracy of **63.87%** for this class of the model. We can consider the rules determined using the variable **'sub_grade'** as the main parameter in the classifier rules. Since these loans are outside the **bad_grades** we can understand that these loans that received this classification need a more careful analysis considering the other indicators.
-
-  **Very high risk:** 
-
-  * These are loans classified as defaulted, and the indicators indicate that they will probably not be paid. Therefore, these loans will be denied, and we will use our indicators to justify the reasons for non-approval.
-
-  * We have an accuracy of **63.87%** for this class of the model. We can consider the rules determined using the **'sub_grade'** variable as the main parameter in the classifier rules. **'bad_grades'** have a default probability ranging from **31.25% to 47.66%**. Therefore, the chances of loans classified under these terms becoming defaulted are very high.
  
-### Built With
+### ⚙️ Built With
+* [![Databricks][Azure Databricks]][Azure Databricks-url]
+* [![Language Python][Python]][Python-url]
+* [![Apache][Apache Spark]][Apache Spark-url]
+* [![PD][Pandas]][Pandas-url]
+* [![NP][NumPy]][NumPy-url]
+* [![Matplot][Matplotlib]][Matplotlib-url]
+* [![Torch][PyTorch]][PyTorch-url]
+* [![Sklearn][scikit-learn]][scikit-learn-url]
+* [![Ray][Ray Tune]][Ray Tune-url]
+
+---
+
+### 🗂️ Data structure
+
+<br />
+<div align="center">
+  <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
+    <img src="images/churn_predction/type_variables.png" alt="type_variables" width="500" height="500">
+  </a>
+</div>
+<br />
+
+---
+
+### 📊 Numerical variables and Categorical variables
+
+<br />
+<div align="lef">
+  <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
+    <img src="images/churn_predction/histogram_numerical_bi.png" alt="type_variables" width="500" height="350">
+    <img src="images/churn_predction/countplot_categorical_bi.png" alt="type_variables" width="500" height="350">
+  </a>
+</div>
+<br />
+
+---
+
+### 📉 Churn Rate of data train
+
+<br />
+<div align="center">
+  <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
+    <img src="images/churn_predction/churn_rate_uni.png" alt="type_variables" width="600" height="400">
+    
+  </a>
+</div>
+<br />
+
+---
+
+### 📈 Scoring of models on validation data
+
+<br />
+<div align="left">
+  <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
+    <img src="images/churn_predction/models_performance.png" alt="type_variables" width="750" height="350">
+    
+  </a>
+</div>
+<br />
+
+---
+
+
+### 🧠 Final Model Test data
+
+<br />
+<div align="center">
+  <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
+    <img src="images/churn_predction/torch_crossvalidation_testcm.png" alt="type_variables" width="350" height="350">
+  </a>
+</div>
+<br />
+
+<br />
+<div align="left">
+  <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
+    <img src="images/churn_predction/predictions_prob.png" alt="type_variables" width="500" height="1000">
+    <img src="images/churn_predction/precision_roc_curve.png" alt="type_variables" width="500" height="1000">
+  </a>
+</div>
+<br />
+
+---
+
+#### Scores of the model on test data:
+
+| **Metric**    | **Score** |
+|---------------|-----------|
+| **Loss**      | 0.027     |
+| **Accuracy**  | 96.6%     |
+| **Precision** | 85.7%     |
+| **NPV**       | 99.0%     |
+| **Recall**    | 94.8%     |
+| **AUC-ROC**   | 99.2%     |
+
+- The **low loss value** indicates strong convergence and minimal prediction error.  
+- The **high recall** confirms the model’s effectiveness in identifying churn cases, aligning with the strategic goal of minimizing customer loss. The model captures **94.8%** of churners, enabling retention actions before potential service discontinuation.  
+- The **NPV and precision** values demonstrate balanced performance across both classes.  
+- The **AUC-ROC of 99.2%** reinforces the model’s high discriminative power and reliability in probabilistic churn prediction.
+
+---
+
+### 💡 Final Classifier
+
+<br />
+<div align="center">
+  <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
+    <img src="images/churn_predction/churndemo.png" alt="type_variables" width="1000" height="500">
+  </a>
+</div>
+<br />
+
+<br />
+<div align="center">
+  <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
+    <img src="images/churn_predction/nonchurndemo.png" alt="type_variables" width="1000" height="500">
+  </a>
+</div>
+<br />
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Classification - 💸 Credit risk classification
+
+#### Project complete: [Click here to check the complete project](https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch)
+
+---
+
+<div align="center">
+  <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
+    <img src="images/credit_risk/logo.jpg" alt="Logo Lending Club" width="500" height="250">
+  </a>
+</div>
+
+### 📃 Project Description
+
+This project will be developed in the **Azure Databricks** environment, using **neural networks and machine learning models** to predict whether a loan will be paid or defaulted.
+
+The core of the solution is a **PyTorch model**, which serves as the foundation for loan classification. The final system will be a **4-level default risk classifier**, using applicant data to decide whether a loan should be **approved, denied, or sent for reassessment** by the institution’s stakeholders.
+
+The dataset comes from **Kaggle**, originally provided by **LendingClub**, a leading US peer-to-peer lending platform that offers **personal loans up to \$40,000** with terms ranging from 24 to 60 months.
+
+---
+
+### 🎯 Objectives
+
+* Build a **machine learning model** capable of predicting a borrower’s likelihood of default **at the time of loan application**.
+* Use **only application-time variables** to prevent granting credit to potentially high-risk borrowers.
+* Generate **strategic insights** to help the institution **reduce financial losses and loan defaults** compared to recent years.
+
+---
+
+### ✅ Final Solution – Loan Risk Classification
+
+The model categorizes loans into **4 risk levels**:
+
+☑️ **Very Low Risk**
+
+* Loans with a high probability of repayment.
+* Eligible for **lower interest rates and higher approved amounts**.
+* Driven mainly by **sub\_grade (good\_grades)**, with default rates between **3.52% and 16.05%**.
+* **Accuracy: 66.89%**.
+
+✅ **Low Risk**
+
+* Loans classified as repaid, but not fully aligned with the main classifier rules.
+* Require **careful evaluation** and may involve reducing the approved amount.
+* **Accuracy: 66.89%**.
+
+⚠️ **Medium Risk**
+
+* Loans with a relevant chance of default, although some indicators suggest approval may be possible.
+* Decisions include **conditional approval** or **justified denial**.
+* **Accuracy: 63.87%**.
+
+🔴 **Very High Risk**
+
+* Loans with a strong probability of default.
+* Based on **sub\_grade (bad\_grades)**, with default rates ranging from **31.25% to 47.66%**.
+* Decision: **automatic rejection**.
+* **Accuracy: 63.87%**.
+
+ 
+### ⚙️ Built With
 * [![Databricks][Azure Databricks]][Azure Databricks-url]
 * [![Language Python][Python]][Python-url]
 * [![Apache][Apache Spark]][Apache Spark-url]
@@ -133,28 +338,26 @@ Technologies and tools that I have been using in my learning and in my day-to-da
 * [![Sklearn][scikit-learn]][scikit-learn-url]
 * [![Ray][Ray Tune]][Ray Tune-url]
 
-## Scoring of models on validation data
+### 📈 Scoring of models on validation data
 
 <br />
 <div align="left">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/scores_models.png" alt="Scores Models" width="900" height="300">
+    <img src="images/credit_risk/scores_models.png" alt="Scores Models" width="900" height="300">
   </a>
 </div>
 <br />
 
-## Pytorch with Test data
-#### Confusion Matrix
-
+### 🧠 Final Model Test data
 
 <div align="left">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/test_matrix.png" alt="Test Confusion Matrix" width="300" height="300">
+    <img src="images/credit_risk/test_matrix.png" alt="Test Confusion Matrix" width="300" height="300">
   </a>
 </div>
 <br />
 
-## Scores of the model on test data:
+#### Scores of the model on test data:
 
 * At this stage of the project, we finally submitted our model to the test data. We can see that our AUC-ROC and Precision scores were satisfactory compared to the training data scores, and the confusion matrix is ​​balanced. The model presented the following scores:
 
@@ -164,7 +367,7 @@ Technologies and tools that I have been using in my learning and in my day-to-da
   * **Recall**: 63.87%
 
 
-## Final Classifier
+### 💡 Final Classifier
 ```
 
 ### Exemple output
@@ -184,8 +387,9 @@ Technologies and tools that I have been using in my learning and in my day-to-da
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#
-## Churn Prediction-Credit Card Churn Prediction
+---
+
+### Convolutional Network Deep Learning Project
 
 #### Under constrution ...
 
@@ -204,14 +408,6 @@ Technologies and tools that I have been using in my learning and in my day-to-da
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -242,9 +438,6 @@ Project Link: [https://github.com/OtnielGomes/Data_Science_Portfolio](https://gi
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [author-shield]: https://img.shields.io/badge/author-OtnielGomes-red.svg
 [author-url]: https://github.com/OtnielGomes
