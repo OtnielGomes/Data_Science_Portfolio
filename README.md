@@ -68,7 +68,7 @@ I’m constantly learning and applying my knowledge to solve real-world business
         <li><a href="#classification----credit-card-churn-prediction">Credit Card Churn-Prediction</a>
       </ul>
       <ul>
-          <li><a href="#churn-prediction-credit-card-churn-prediction">Churn Prediction-Credit Card Churn Prediction</a></li>
+          <li><a href="#-classification----credit-risk-classification">Credit Risk Classification</a></li>
       </ul>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
