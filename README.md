@@ -49,7 +49,7 @@ I’m constantly learning and applying my knowledge to solve real-world business
 🤖 Machine Learning
 
 
-🧠 **Deep Learning** 
+🧠 Deep Learning
 
 
 💡 I’m looking for **opportunities and collaborations in Data Science, Artificial Intelligence, and Big Data**, where I can **grow, learn, and make a real impact**.
