@@ -268,6 +268,7 @@ This deployment enables data-driven decision-making, allowing the business to pr
 ---
 
 <br/>
+
 ### Classification - 💸 Credit Risk Classification
 
 #### Project complete: [Click here to check the complete project](https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch)
