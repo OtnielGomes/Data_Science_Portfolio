@@ -68,7 +68,7 @@ I’m constantly learning and applying my knowledge to solve real-world business
         <li><a href="#classification----credit-card-churn-prediction">Credit Card Churn-Prediction</a>
       </ul>
       <ul>
-          <li><a href="#-classification----credit-risk-classification">Credit Risk Classification</a></li>
+          <li><a href="#classification----credit-risk-classification">Credit Risk Classification</a></li>
       </ul>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -265,7 +265,7 @@ This deployment enables data-driven decision-making, allowing the business to pr
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Classification - 💸 Credit risk classification
+### Classification - 💸 Credit Risk Classification
 
 #### Project complete: [Click here to check the complete project](https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch)
 
