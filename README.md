@@ -85,13 +85,13 @@ I’m constantly learning and applying my knowledge to solve real-world business
 
 ### Classification - 💳 Credit Card Churn Prediction
 
-#### Project complete: [Click here to check the complete project](https://github.com/OtnielGomes/1_Portfolio-Credit-Card_Churn_Analysis_with_Pytorch)
+#### Project complete: [Click here to check the complete project](https://github.com/OtnielGomes/Churn-Prediction-Credit-Card)
 
 ---
 
 <div align="center">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/churn_predction/logo.jpg" alt="Churn Predction logo" width="500" height="250">
+    <img src="images/churn_predction/project_cover.png" alt="Churn Predction logo" width="1000" height="300">
   </a>
 </div>
 
@@ -104,19 +104,19 @@ In this project, I will be working with a dataset provided by **Kaggle**, where 
 ---  
 
 ### 📋 CRISP-DM Methodology  
-The project will follow the CRISP-DM (*Cross-Industry Standard Process for Data Mining*) framework:  
-
-| **Stage** | **Objective** | **Key Actions** |  
-|-----------|---------------|------------------|  
-| **1. Business Understanding** | Define the impact of churn prediction on customer retention. | - Identify the causes and possible solutions for the business.<br>- Align metrics with business KPIs. |  
-| **2. Data Understanding** | Analyze data structure, quality, and variable relationships. | - Exploratory Data Analysis (EDA).<br>- Outlier and correlation detection. |  
-| **3. Data Preparation** | Prepare data for model training. | - Split training and test data.<br>- Remove redundant variables. |  
-| **4. Modeling** | Train and compare classical models and neural networks. | - Random Forest/Logistic Regression (baseline).<br>- PyTorch neural network (focus on generalization). |  
-| **5. Evaluation** | Validate performance with business-oriented metrics. | - AUC-ROC, Recall, confusion matrix.<br>- Simulate financial impact. |  
-| **6. Deployment** | Deploy the model for production use. | - Build a final churn prediction model with customer behavior indicators. |  
-
 ---
 
+This project follows the CRISP-DM (*Cross-Industry Standard Process for Data Mining*) framework applied to **Customer Retention & Churn Prediction**:
+| **Stage** | **Objective** | **Methodological Execution** |
+| :--- | :--- | :--- |
+| **1. Business Understanding** | Mitigate revenue loss by identifying at-risk customers. | • **Target Definition**: Binary Classification (Churn: Yes/No).<br>• **KPIs**: Maximize **Lift** in retention campaigns & Revenue Saved vs. Cost. |
+| **2. Data Understanding** | Detect patterns of friction and dissatisfaction. | • **EDA**: Distribution analysis (Detect Imbalance).<br>• **Hypothesis Testing**: Correlation Matrix & Independence Tests (Chi-Square). |
+| **3. Data Preparation** | Construct a robust dataset for parametric modeling. | • **Scaling**: Standardization (Z-score) for coefficient comparability.<br>• **Encoding**: One-Hot Encoding for nominal variables.<br>• **Splitting**: Stratified Train/Test Split to preserve class ratio. |
+| **4. Modeling** | Estimate Churn Probability | • **Algorithms**: Logistic Regression, SVM LinearSVC, KNN, Random Florest, XGBoost, LightGBM.<br>• **Inference**: Analyze **Odds Ratios** to determine feature elasticity. |
+| **5. Evaluation** | Assess model reliability and financial impact. | • **Discrimination**: AUC-ROC & F1-Score & Recall.<br>• **Calibration**: Probability Calibration Curve (Reliability Diagram). |
+| **6. Deployment** | Integrate insights into the CRM lifecycle. | • **Deliverable**: "High-Risk" Customer List for Marketing Squad.<br>• **Artifact**: Serialize model (`joblib`) for batch inference. |
+
+---
 ### 🎯 Objectives
 
 The bank’s manager has observed a rising number of customers abandoning credit card services. Stakeholders aim to:  
@@ -132,9 +132,8 @@ The bank’s manager has observed a rising number of customers abandoning credit
 I deploy the final churn prediction classifier, developed using the insights and statistical patterns identified during the Exploratory Data Analysis (EDA).  
 The model processes individual customer data and returns:  
 
-- **Churn probability** — the likelihood of the customer leaving.  
-- **Key influencing factors** — the main behavioral and financial indicators driving the prediction.  
-- **Actionable recommendations** — targeted suggestions to help reduce churn risk.  
+- **Churn probability** — the likelihood of the customer leaving.
+-  **Classification** of low, high, very low probability
 
 This deployment enables data-driven decision-making, allowing the business to proactively implement retention strategies, improve customer engagement, and maximize lifetime value.
 
@@ -146,7 +145,6 @@ This deployment enables data-driven decision-making, allowing the business to pr
 * [![PD][Pandas]][Pandas-url]
 * [![NP][NumPy]][NumPy-url]
 * [![Matplot][Matplotlib]][Matplotlib-url]
-* [![Torch][PyTorch]][PyTorch-url]
 * [![Sklearn][scikit-learn]][scikit-learn-url]
 * [![Ray][Ray Tune]][Ray Tune-url]
 
@@ -154,23 +152,36 @@ This deployment enables data-driven decision-making, allowing the business to pr
 
 ### 🗂️ Data structure
 
-<br />
-<div align="center">
-  <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/churn_predction/type_variables.png" alt="type_variables" width="500" height="500">
-  </a>
-</div>
-<br />
+This dataset contains information from 10,000 bank customers, including demographic, financial, and relationship-related attributes such as age, salary, marital status, credit card limit, and card category.
+
+> These variables provide the analytical foundation for investigating behavioral patterns associated with customer attrition and for supporting the construction of predictive models.
 
 ---
+
+### Data File
+- **Data file**: `BankChurners.csv`
+
+---
+
+### Target Variable
+The dependent target variable is **`Attrition_Flag`**, a categorical feature with binary classes:
+
+1. **`Existing Customer`**
+- Represents customers who remained active, that is, non-churners.
+
+2. **`Attrited Customer`**
+- Represents customers who discontinued their relationship with the credit card service, that is, churners.
+
+> Since this is a **binary classification** problem, the target variable will be used to distinguish customers who remain in the base from those who are more likely to leave.
+
 
 ### 📊 Numerical variables and Categorical variables
 
 <br />
 <div align="lef">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/churn_predction/histogram_numerical_bi.png" alt="type_variables" width="500" height="350">
-    <img src="images/churn_predction/countplot_categorical_bi.png" alt="type_variables" width="500" height="350">
+    <img src="images/churn_predction/hist_bi.png" alt="type_variables" width="500" height="350">
+    <img src="images/churn_predction/count_bi.png" alt="type_variables" width="500" height="350">
   </a>
 </div>
 <br />
@@ -182,7 +193,7 @@ This deployment enables data-driven decision-making, allowing the business to pr
 <br />
 <div align="center">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/churn_predction/churn_rate_uni.png" alt="type_variables" width="600" height="400">
+    <img src="images/churn_predction/target_count.png" alt="type_variables" width="600" height="400">
     
   </a>
 </div>
