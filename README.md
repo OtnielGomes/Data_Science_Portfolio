@@ -66,7 +66,7 @@ I’m constantly learning and applying my knowledge to solve real-world business
         <li><a href="#classification---credit-card-churn-prediction">Credit Card Churn-Prediction</a>
       </ul>
       <ul>
-          <li><a href="#classification-credit-risk-classification">Credit Risk Classification</a></li>
+          <li><a href="#classification---credit-risk-classification">Credit Risk Classification</a></li>
       </ul>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -98,14 +98,12 @@ I’m constantly learning and applying my knowledge to solve real-world business
 </div>
 
 ---
-<br />
 
 ### 📃 Project Description
 
 In this project, I will be working with a dataset provided by **Kaggle**, where I will develop a churn-rate analysis. The goal is to identify the causes and reasons for customer churn from a banking institution in relation to credit card services. After understanding these causes and reasons, some machine learning models will be developed to predict potential customers who will be abandoning the credit card service of this institution. With these predictions, I will seek to develop solutions to prevent or reverse the churn of these customers.  
 
 ---  
-<br />
 
 ### 📋 CRISP-DM Methodology  
 ---
@@ -122,9 +120,8 @@ This project follows the CRISP-DM (*Cross-Industry Standard Process for Data Min
 
 ---
 
-<br />
-
 ### 🎯 Objectives
+---
 
 The bank’s manager has observed a rising number of customers abandoning credit card services. Stakeholders aim to:  
 1. **Analyze historical data** to identify root causes of churn.  
@@ -133,10 +130,8 @@ The bank’s manager has observed a rising number of customers abandoning credit
 
 ---
 
-<br />
-
 ### ✅ Final Solution – Churn Prediction Classifier
-
+---
 
 I deploy the final churn prediction classifier, developed using the insights and statistical patterns identified during the Exploratory Data Analysis (EDA).  
 The model processes individual customer data and returns:  
@@ -148,9 +143,8 @@ This deployment enables data-driven decision-making, allowing the business to pr
 
 ---
 
-<br />
-
 ### 🗂️ Data structure
+---
 
 This dataset contains information from 10,000 bank customers, including demographic, financial, and relationship-related attributes such as age, salary, marital status, credit card limit, and card category.
 
@@ -174,11 +168,11 @@ The dependent target variable is **`Attrition_Flag`**, a categorical feature wit
 
 > Since this is a **binary classification** problem, the target variable will be used to distinguish customers who remain in the base from those who are more likely to leave.
 
-<br />
+---
 
 ### 📊 Numerical variables and Categorical variables
-<br />
-<br />
+---
+
 <div align="lef">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
     <img src="images/churn_predction/hist_bi.png" alt="hist_bi.png" width="500" height="350">
@@ -188,11 +182,10 @@ The dependent target variable is **`Attrition_Flag`**, a categorical feature wit
 <br />
 
 ---
-<br />
 
 ### 📉 Churn Rate of data train
-<br />
-<br />
+---
+
 <div align="center">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
     <img src="images/churn_predction/target_count.png" alt="target_count.png" width="1000" height="450">
@@ -203,11 +196,9 @@ The dependent target variable is **`Attrition_Flag`**, a categorical feature wit
 
 ---
 
-<br />
-
 ### 📈 Scoring of models on validation data
+---
 
-<br />
 <div align="left">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
     <img src="images/churn_predction/scores_models.png" alt="scores_models.png" width="1200" height="750">
@@ -218,11 +209,9 @@ The dependent target variable is **`Attrition_Flag`**, a categorical feature wit
 
 ---
 
-<br />
-
 ### 🧠 Final Model Test Data  - Evaluation
+---
 
-<br />
 <div align="center">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
     <img src="images/churn_predction/evaluation.png" alt="evaluation.png" width="500" height="1000">
