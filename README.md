@@ -16,7 +16,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/data_science.jpg" alt="Data Science" width="800" height="300">
+    <img src="images/data_science.jpg" alt="Data Science" width="1000" height="300">
   </a>
 
 <h1 align="center">  Welcome to my Data Science portifolio! </h1>
@@ -79,11 +79,13 @@ I’m constantly learning and applying my knowledge to solve real-world business
 <!-- THE PROJECTS -->
 <br />
 
-## The Projects
+## The Projects:
 
 <br/>
+<br/>
 
-### Classification - 💳 Credit Card Churn Prediction
+---
+## Classification - Credit Card Churn Prediction 💳 
 
 #### Project complete: [Click here to check the complete project](https://github.com/OtnielGomes/Churn-Prediction-Credit-Card)
 
@@ -91,17 +93,19 @@ I’m constantly learning and applying my knowledge to solve real-world business
 
 <div align="center">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/churn_predction/project_cover.png" alt="Churn Predction logo" width="1000" height="300">
+    <img src="images/churn_predction/project_cover.png" alt="Churn Predction logo" width="1000" height="350">
   </a>
 </div>
 
 ---
+<br />
 
 ### 📃 Project Description
 
 In this project, I will be working with a dataset provided by **Kaggle**, where I will develop a churn-rate analysis. The goal is to identify the causes and reasons for customer churn from a banking institution in relation to credit card services. After understanding these causes and reasons, some machine learning models will be developed to predict potential customers who will be abandoning the credit card service of this institution. With these predictions, I will seek to develop solutions to prevent or reverse the churn of these customers.  
 
 ---  
+<br />
 
 ### 📋 CRISP-DM Methodology  
 ---
@@ -117,6 +121,9 @@ This project follows the CRISP-DM (*Cross-Industry Standard Process for Data Min
 | **6. Deployment** | Integrate insights into the CRM lifecycle. | • **Deliverable**: "High-Risk" Customer List for Marketing Squad.<br>• **Artifact**: Serialize model (`joblib`) for batch inference. |
 
 ---
+
+<br />
+
 ### 🎯 Objectives
 
 The bank’s manager has observed a rising number of customers abandoning credit card services. Stakeholders aim to:  
@@ -125,6 +132,8 @@ The bank’s manager has observed a rising number of customers abandoning credit
 3. **Implement strategic actions** to retain high-risk customers. 
 
 ---
+
+<br />
 
 ### ✅ Final Solution – Churn Prediction Classifier
 
@@ -137,18 +146,9 @@ The model processes individual customer data and returns:
 
 This deployment enables data-driven decision-making, allowing the business to proactively implement retention strategies, improve customer engagement, and maximize lifetime value.
 
- 
-### ⚙️ Built With
-* [![Databricks][Azure Databricks]][Azure Databricks-url]
-* [![Language Python][Python]][Python-url]
-* [![Apache][Apache Spark]][Apache Spark-url]
-* [![PD][Pandas]][Pandas-url]
-* [![NP][NumPy]][NumPy-url]
-* [![Matplot][Matplotlib]][Matplotlib-url]
-* [![Sklearn][scikit-learn]][scikit-learn-url]
-* [![Ray][Ray Tune]][Ray Tune-url]
-
 ---
+
+<br />
 
 ### 🗂️ Data structure
 
@@ -174,39 +174,43 @@ The dependent target variable is **`Attrition_Flag`**, a categorical feature wit
 
 > Since this is a **binary classification** problem, the target variable will be used to distinguish customers who remain in the base from those who are more likely to leave.
 
+<br />
 
 ### 📊 Numerical variables and Categorical variables
-
+<br />
 <br />
 <div align="lef">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/churn_predction/hist_bi.png" alt="type_variables" width="500" height="350">
-    <img src="images/churn_predction/count_bi.png" alt="type_variables" width="500" height="350">
+    <img src="images/churn_predction/hist_bi.png" alt="hist_bi.png" width="500" height="350">
+    <img src="images/churn_predction/count_bi.png" alt="hist_bi.png" width="500" height="350">
   </a>
 </div>
 <br />
 
 ---
+<br />
 
 ### 📉 Churn Rate of data train
-
+<br />
 <br />
 <div align="center">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/churn_predction/target_count.png" alt="type_variables" width="600" height="400">
+    <img src="images/churn_predction/target_count.png" alt="target_count.png" width="1000" height="450">
     
   </a>
 </div>
 <br />
 
 ---
+
+<br />
 
 ### 📈 Scoring of models on validation data
 
 <br />
 <div align="left">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/churn_predction/models_performance.png" alt="type_variables" width="750" height="350">
+    <img src="images/churn_predction/scores_models.png" alt="scores_models.png" width="1200" height="750">
     
   </a>
 </div>
@@ -214,13 +218,14 @@ The dependent target variable is **`Attrition_Flag`**, a categorical feature wit
 
 ---
 
+<br />
 
-### 🧠 Final Model Test data
+### 🧠 Final Model Test Data  - Evaluation
 
 <br />
 <div align="center">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/churn_predction/torch_crossvalidation_testcm.png" alt="type_variables" width="350" height="350">
+    <img src="images/churn_predction/evaluation.png" alt="evaluation.png" width="500" height="1000">
   </a>
 </div>
 <br />
@@ -228,57 +233,27 @@ The dependent target variable is **`Attrition_Flag`**, a categorical feature wit
 <br />
 <div align="left">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/churn_predction/predictions_prob.png" alt="type_variables" width="500" height="1000">
-    <img src="images/churn_predction/precision_roc_curve.png" alt="type_variables" width="500" height="1000">
-  </a>
-</div>
-<br />
-
----
-
-#### Scores of the model on test data:
-
-| **Metric**    | **Score** |
-|---------------|-----------|
-| **Loss**      | 0.027     |
-| **Accuracy**  | 96.6%     |
-| **Precision** | 85.7%     |
-| **NPV**       | 99.0%     |
-| **Recall**    | 94.8%     |
-| **AUC-ROC**   | 99.2%     |
-
-- The **low loss value** indicates strong convergence and minimal prediction error.  
-- The **high recall** confirms the model’s effectiveness in identifying churn cases, aligning with the strategic goal of minimizing customer loss. The model captures **94.8%** of churners, enabling retention actions before potential service discontinuation.  
-- The **NPV and precision** values demonstrate balanced performance across both classes.  
-- The **AUC-ROC of 99.2%** reinforces the model’s high discriminative power and reliability in probabilistic churn prediction.
-
----
-
-### 💡 Final Classifier
-
-<br />
-<div align="center">
-  <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/churn_predction/churndemo.png" alt="type_variables" width="1000" height="500">
+    <img src="images/churn_predction/probabilities.png" alt="probabilities.png" width="1200" height="1000">
   </a>
 </div>
 <br />
 
 <br />
-<div align="center">
+<div align="left">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/churn_predction/nonchurndemo.png" alt="type_variables" width="1000" height="500">
+    <img src="images/churn_predction/shap_val_1.png" alt="shap_val_1.png" width="1200" height="1000">
   </a>
 </div>
 <br />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
----
-
 <br/>
+<br />
+<br />
 
-### Classification - 💸 Credit Risk Classification
+---
+## Classification - Credit Risk Classification 💸 
 
 #### Project complete: [Click here to check the complete project](https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch)
 
@@ -338,18 +313,6 @@ The model categorizes loans into **4 risk levels**:
 * Decision: **automatic rejection**.
 * **Accuracy: 63.87%**.
 
- 
-### ⚙️ Built With
-* [![Databricks][Azure Databricks]][Azure Databricks-url]
-* [![Language Python][Python]][Python-url]
-* [![Apache][Apache Spark]][Apache Spark-url]
-* [![PD][Pandas]][Pandas-url]
-* [![NP][NumPy]][NumPy-url]
-* [![Matplot][Matplotlib]][Matplotlib-url]
-* [![Ploty Lib][Plotly]][Plotly-url]
-* [![Torch][PyTorch]][PyTorch-url]
-* [![Sklearn][scikit-learn]][scikit-learn-url]
-* [![Ray][Ray Tune]][Ray Tune-url]
 
 ### 📈 Scoring of models on validation data
 
@@ -402,7 +365,7 @@ The model categorizes loans into **4 risk levels**:
 
 ---
 
-### Convolutional Network Deep Learning Project
+### Clustering Project
 
 #### Under constrution ...
 
