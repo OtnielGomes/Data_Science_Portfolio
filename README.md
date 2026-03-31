@@ -175,8 +175,8 @@ The dependent target variable is **`Attrition_Flag`**, a categorical feature wit
 
 <div align="lef">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/churn_predction/hist_bi.png" alt="hist_bi.png" width="500" height="350">
-    <img src="images/churn_predction/count_bi.png" alt="hist_bi.png" width="500" height="350">
+    <img src="images/churn_predction/hist_bi.png" alt="hist_bi.png" width="1000" height="500">
+    <img src="images/churn_predction/count_bi.png" alt="hist_bi.png" width="1000" height="500">
   </a>
 </div>
 <br />
