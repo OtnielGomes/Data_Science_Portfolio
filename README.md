@@ -85,7 +85,7 @@ I’m constantly learning and applying my knowledge to solve real-world business
 <br/>
 
 ---
-## Classification - Credit Card Churn Prediction 💳 
+## Classification - Credit Card Churn Prediction💳 
 
 #### Project complete: [Click here to check the complete project](https://github.com/OtnielGomes/Churn-Prediction-Credit-Card)
 
