@@ -62,7 +62,7 @@ I’m constantly learning and applying my knowledge to solve real-world business
     <li>
       <a href="#the-projects">The Projects</a>
       <ul>
-        <li><a href="#llms---document-rag-agent">LLMS - Document-Rag-Agent</a></li>
+        <li><a href="#llms---document-rag-agent">LLMS - Document Rag Agent</a></li>
         <li><a href="#classification---credit-card-churn-prediction">Classification - Credit Card Churn Prediction</a></li>
         <li><a href="#classification---credit-risk-classification">Classification - Credit Risk Classification</a></li>
         <li><a href="#clustering-project">Clustering Project</a></li>
@@ -83,7 +83,7 @@ I’m constantly learning and applying my knowledge to solve real-world business
 
 <br/>
 
-## LLMS - Document-Rag-Agent🗂️
+## LLMS - Document Rag Agent🗂️
 
 #### Project complete: [Click here to check the complete project](https://github.com/OtnielGomes/Document-Rag-Agent)
 
