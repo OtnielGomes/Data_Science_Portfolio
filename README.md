@@ -124,11 +124,11 @@ The entire process is recorded in the video below:
 
 <br/>
 
-## Application Operation
+### Application Operation
 
 <br/>
 
-### Loading PDF
+#### Loading PDF
 
 <br/><br/>
 <div align="left">
@@ -137,7 +137,7 @@ The entire process is recorded in the video below:
 </div>
 <br/>
 
-### Asking The Agent
+#### Asking The Agent
 
 <br/><br/>
 <div align="left">
@@ -146,7 +146,7 @@ The entire process is recorded in the video below:
 </div>
 <br/>
 
-### Assessing the latency and functioning of the agent
+#### Assessing the latency and functioning of the agent
 
 <br/><br/>
 <div align="left">
