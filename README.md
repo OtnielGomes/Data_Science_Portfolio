@@ -63,6 +63,9 @@ I’m constantly learning and applying my knowledge to solve real-world business
     </li>
     <li><a href="#the-projects">The Projects</a></li>
       <ul>
+        <li><a href="#llms---document-rag-agent">LLMS - Document Rag Agent</a></li> 
+      </ul>
+      <ul>
         <li><a href="#classification---credit-card-churn-prediction">Credit Card Churn-Prediction</a>
       </ul>
       <ul>
@@ -82,9 +85,7 @@ I’m constantly learning and applying my knowledge to solve real-world business
 ## The Projects:
 
 <br/>
-<br/>
 
----
 ## LLMS - Document-Rag-Agent🗂️
 
 #### Project complete: [Click here to check the complete project](https://github.com/OtnielGomes/Document-Rag-Agent)
@@ -163,8 +164,6 @@ The entire process is recorded in the video below:
 <br />
 <br />
 
----
----
 ## Classification - Credit Card Churn Prediction💳 
 
 #### Project complete: [Click here to check the complete project](https://github.com/OtnielGomes/Churn-Prediction-Credit-Card)
@@ -319,11 +318,10 @@ The dependent target variable is **`Attrition_Flag`**, a categorical feature wit
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <br/>
-<br />
-<br />
+<br/>
+<br/>
 
----
-## Classification - Credit Risk Classification 💸 
+## Classification - Credit Risk Classification💸 
 
 #### Project complete: [Click here to check the complete project](https://github.com/OtnielGomes/0_Portfolio-Credit_Risk_Analysis_with_Pytorch)
 
@@ -433,7 +431,9 @@ The model categorizes loans into **4 risk levels**:
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
----
+<br/>
+<br/>
+<br/>
 
 ### Clustering Project
 
@@ -445,7 +445,7 @@ The model categorizes loans into **4 risk levels**:
     <img src="images/under_construction.jpg" alt="Under construction" width="500" height="250">
   </a>
 </div>
-<br />
+<br/>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
