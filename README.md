@@ -85,7 +85,7 @@ I’m constantly learning and applying my knowledge to solve real-world business
 <br/>
 
 ---
-## LLMS - Document-Rag-Agent📃
+## LLMS - Document-Rag-Agent🗂️
 
 #### Project complete: [Click here to check the complete project](https://github.com/OtnielGomes/Document-Rag-Agent)
 
@@ -93,7 +93,7 @@ I’m constantly learning and applying my knowledge to solve real-world business
 
 <div align="center">
   <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/churn_predction/project_cover.png" alt="Churn Predction logo" width="1000" height="350">
+    <img src="images/document_rag_agent/project_cover.png" alt="Project Cover" width="1000" height="350">
   </a>
 </div>
 
@@ -101,140 +101,61 @@ I’m constantly learning and applying my knowledge to solve real-world business
 
 ### 📃 Project Description
 
-In this project, I will be working with a dataset provided by **Kaggle**, where I will develop a churn-rate analysis. The goal is to identify the causes and reasons for customer churn from a banking institution in relation to credit card services. After understanding these causes and reasons, some machine learning models will be developed to predict potential customers who will be abandoning the credit card service of this institution. With these predictions, I will seek to develop solutions to prevent or reverse the churn of these customers.  
+#### RAG-Based Question Answering System
+
+I developed a question answering system for **PDF** documents using **RAG (Retrieval-Augmented Generation)**, with a focus on retrieving relevant content snippets and generating more accurate answers based on the document context.
+
+The project was built with **Python**, **Streamlit**, **LangChain**, **ChromaDB**, and **PyMuPDF**, including document ingestion, text chunking, semantic search, and context-aware answer generation.
+
+The system also included **manual evaluation** steps and **prompt rules** designed to reduce hallucinations and improve the reliability of the generated answers.
 
 ---  
 
-### 📋 CRISP-DM Methodology  
+### 📋 The Project  
 ---
 
-This project follows the CRISP-DM (*Cross-Industry Standard Process for Data Mining*) framework applied to **Customer Retention & Churn Prediction**:
-| **Stage** | **Objective** | **Methodological Execution** |
-| :--- | :--- | :--- |
-| **1. Business Understanding** | Mitigate revenue loss by identifying at-risk customers. | • **Target Definition**: Binary Classification (Churn: Yes/No).<br>• **KPIs**: Maximize **Lift** in retention campaigns & Revenue Saved vs. Cost. |
-| **2. Data Understanding** | Detect patterns of friction and dissatisfaction. | • **EDA**: Distribution analysis (Detect Imbalance).<br>• **Hypothesis Testing**: Correlation Matrix & Independence Tests (Chi-Square). |
-| **3. Data Preparation** | Construct a robust dataset for parametric modeling. | • **Scaling**: Standardization (Z-score) for coefficient comparability.<br>• **Encoding**: One-Hot Encoding for nominal variables.<br>• **Splitting**: Stratified Train/Test Split to preserve class ratio. |
-| **4. Modeling** | Estimate Churn Probability | • **Algorithms**: Logistic Regression, SVM LinearSVC, KNN, Random Florest, XGBoost, LightGBM.<br>• **Inference**: Analyze **Odds Ratios** to determine feature elasticity. |
-| **5. Evaluation** | Assess model reliability and financial impact. | • **Discrimination**: AUC-ROC & F1-Score & Recall.<br>• **Calibration**: Probability Calibration Curve (Reliability Diagram). |
-| **6. Deployment** | Integrate insights into the CRM lifecycle. | • **Deliverable**: "High-Risk" Customer List for Marketing Squad.<br>• **Artifact**: Serialize model (`joblib`) for batch inference. |
+I conducted an initial test of the project using my resume in **PDF** format as the knowledge base.
 
----
+After uploading the file through the **Streamlit** interface, the system extracted the content, processed the document, and enabled question answering based on the information contained in the PDF.
 
-### 🎯 Objectives
----
+This workflow also made it possible to manually evaluate the **answer accuracy** and the **application latency**.
 
-The bank’s manager has observed a rising number of customers abandoning credit card services. Stakeholders aim to:  
-1. **Analyze historical data** to identify root causes of churn.  
-2. **Develop a machine learning model** to predict customer churn probability.  
-3. **Implement strategic actions** to retain high-risk customers. 
+The entire process is recorded in the video below:
 
----
+[![Demonstration](https://github.com/OtnielGomes/Data_Science_Portfolio/blob/main/images/document_rag_agent/video.png)](https://canva.link/zjmai0hdpe9v8lf)
 
-### ✅ Final Solution – Churn Prediction Classifier
----
+<br/>
 
-I deploy the final churn prediction classifier, developed using the insights and statistical patterns identified during the Exploratory Data Analysis (EDA).  
-The model processes individual customer data and returns:  
+## Application Operation
 
-- **Churn probability** — the likelihood of the customer leaving.
--  **Classification** of low, high, very low probability
+<br/>
 
-This deployment enables data-driven decision-making, allowing the business to proactively implement retention strategies, improve customer engagement, and maximize lifetime value.
+### Loading PDF
 
----
-
-### 🗂️ Data structure
----
-
-This dataset contains information from 10,000 bank customers, including demographic, financial, and relationship-related attributes such as age, salary, marital status, credit card limit, and card category.
-
-> These variables provide the analytical foundation for investigating behavioral patterns associated with customer attrition and for supporting the construction of predictive models.
-
----
-
-### Data File
-- **Data file**: `BankChurners.csv`
-
----
-
-### Target Variable
-The dependent target variable is **`Attrition_Flag`**, a categorical feature with binary classes:
-
-1. **`Existing Customer`**
-- Represents customers who remained active, that is, non-churners.
-
-2. **`Attrited Customer`**
-- Represents customers who discontinued their relationship with the credit card service, that is, churners.
-
-> Since this is a **binary classification** problem, the target variable will be used to distinguish customers who remain in the base from those who are more likely to leave.
-
----
-
-### 📊 Numerical variables and Categorical variables
----
-
-<div align="lef">
-  <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/churn_predction/hist_bi.png" alt="hist_bi.png" width="1000" height="750">
-    <br />
-    <img src="images/churn_predction/count_bi.png" alt="hist_bi.png" width="1000" height="750">
-  </a>
-</div>
-<br />
-
----
-
-### 📉 Churn Rate of data train
----
-
-<div align="center">
-  <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/churn_predction/target_count.png" alt="target_count.png" width="1000" height="450">
-    
-  </a>
-</div>
-<br />
-
----
-
-### 📈 Scoring of models on validation data
----
-
+<br/><br/>
 <div align="left">
-  <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/churn_predction/scores_models.png" alt="scores_models.png" width="1200" height="750">
-    
+    <img src="images/document_rag_agent/pdf1.png" alt="Loading PDF" width="500" height="900">
   </a>
 </div>
-<br />
+<br/>
 
----
+### Asking The Agent
 
-### 🧠 Final Model Test Data  - Evaluation
----
-
-<div align="center">
-  <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/churn_predction/evaluation.png" alt="evaluation.png" width="500" height="1000">
-  </a>
-</div>
-<br />
-
-<br />
+<br/><br/>
 <div align="left">
-  <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/churn_predction/probabilities.png" alt="probabilities.png" width="1200" height="1000">
+    <img src="images/document_rag_agent/question7.png" alt="Asking The Agent" width="700" height="900">
   </a>
 </div>
-<br />
+<br/>
 
-<br />
+### Assessing the latency and functioning of the agent
+
+<br/><br/>
 <div align="left">
-  <a href="https://github.com/OtnielGomes/Data_Science_Portfolio">
-    <img src="images/churn_predction/shap_val_1.png" alt="shap_val_1.png" width="1200" height="1000">
+    <img src="images/document_rag_agent/metrics.png" alt="Assessing the latency and functioning of the agent." width="700" height="900">
   </a>
 </div>
-<br />
+<br/>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
