@@ -58,19 +58,16 @@ I’m constantly learning and applying my knowledge to solve real-world business
 <details>
   <summary>Table of Contents</summary>
   <ol>
+    <li><a href="#data-science-portifolio">Data Science Portfolio</a></li>
     <li>
-      <a href="#data-science-portifolio">Data Science Portifolio</a>
+      <a href="#the-projects">The Projects</a>
+      <ul>
+        <li><a href="#llms---document-rag-agent">LLMS - Document-Rag-Agent</a></li>
+        <li><a href="#classification---credit-card-churn-prediction">Classification - Credit Card Churn Prediction</a></li>
+        <li><a href="#classification---credit-risk-classification">Classification - Credit Risk Classification</a></li>
+        <li><a href="#clustering-project">Clustering Project</a></li>
+      </ul>
     </li>
-    <li><a href="#the-projects">The Projects</a></li>
-      <ul>
-        <li><a href="#llms---document-rag-agent">LLMS - Document Rag Agent</a></li> 
-      </ul>
-      <ul>
-        <li><a href="#classification---credit-card-churn-prediction">Credit Card Churn-Prediction</a>
-      </ul>
-      <ul>
-          <li><a href="#classification---credit-risk-classification">Credit Risk Classification</a></li>
-      </ul>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
